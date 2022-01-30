@@ -68,6 +68,10 @@ body {
   overflow: hidden;
 }
 
+.text-block.fade-up3.tricks.mobile {
+  display: none;
+}
+
 .text-block.fade-up3.tricks {
   overflow: hidden;
 }
@@ -246,7 +250,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 10vw;
+  width: 13vw;
   margin-top: -5vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -257,6 +261,11 @@ body {
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
+}
+
+.full-logo {
+  width: 85%;
+  margin-left: 7.5%;
 }
 
 .hr2 {
@@ -366,10 +375,7 @@ body {
   right: 20%;
   bottom: 0%;
   z-index: 5000;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
